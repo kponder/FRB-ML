@@ -1,0 +1,53 @@
+#==============================================================================
+#FRBs.txt lists all currently known Fast Radio Bursts.
+#Send any updates/corrections to duncan.lorimer@gmail.com
+#
+#From left to right, the columns list:
+#
+# FRB name - which is based of off yy mm dd
+# W     pulse width in ms
+# DM    dispersion measure in cm-3 pc
+# Speak peak flux density in units of Jy
+# f     frequency at which Speak is measured in GHz
+# RA    J2000 right ascension hh:mm
+# DEC   J2000 declination dd:mm
+# UTC   Universal Coordinated Time at which burst arrived on yy mm dd
+# Telescope - the telescope which observed the FRB
+# Year - the year in which the burst was discovered (not necessarily = yy!)
+# refs - bibliographic tag to references whose arXiv links are given below
+#
+# kskl12 - http://arxiv.org/abs/1206.4135
+# lbm+07 - http://arxiv.org/abs/0709.4301
+# bbs14  - http://arxiv.org/abs/1407.0400
+# tsb+13 - http://arxiv.org/abs/1307.1628
+# sch+14 - http://arxiv.org/abs/1404.2934
+# tho13  - https://www.escholar.manchester.ac.uk/api/datastream?publicationPid=uk-ac-man-scw:212510&datastreamId=FULL-TEXT.PDF
+# pet14 - http://arxiv.org/pdf/1412.0342.pdf
+# ravi15 -  http://arxiv.org/pdf/1412.1599v2.pdf
+# lin15 - Private communication
+#champ15 - http://arxiv.org/pdf/1511.07746v1.pdf
+#
+#File created: September  24, 2014 - 9 FRBs from various sources
+# Current total -> 9 FRBs
+#==============================================================================
+#  FRB    W     DM  Speak   f    RA     DEC     UTC     Telescope Year  refs
+#==============================================================================
+010621  7.8    746   0.4  1.4  18:52 -08:29 13:02:10.795 Parkes  2011  kskl12
+010724  4.6    375   30   1.4  01:18 -75:12 19:50:01.630 Parkes  2007  lbm+07
+011025  9.4    790   0.3  1.4  19:06 -40:37 00:29:13.230 Parkes  2014  bbs14
+110220  5.6    944   1.3  1.4  22:34 -12:24 01:55:48.957 Parkes  2013  tsb+13
+110627 1.4    723   0.4  1.4  21:03 -44:44 21:33:17.474 Parkes  2013  tsb+13
+110703 4.3   1104   0.5  1.4  23:30 -02:52 18:59:40.591 Parkes  2013  tsb+13
+120127 1.1    553   0.5  1.4  23:15 -18:25 08:11:21.723 Parkes  2013  tsb+13
+121002  2.9 1629 0.4  1.4  18:14 -85:11 13:09:18.402 Parkes  2013  tho13
+# 121002  2.1 1629 0.4  1.4  18:14 -85:11 13:09:18.402 Parkes  2013  tho13
+# 121002  3.7 1629 0.4  1.4  18:14 -85:11 13:09:18.402 Parkes  2013  tho13
+121102  3.0    557   0.4  1.4  05:32 +33:05 06:35:53.243 Arecibo 2014  sch+14
+140514  2.8     562.7  0.47   1.3    22:34:06.2  -12:18:46.5    Parkes 2014 pet14 
+131104  2.0   779          Parkes  ravi15
+150908  1.73    623.30    0.6  Greenbank lin15 # unknown name
+090625 1.9  899.6 (1) champ15
+#FRB121002 2012-10-02 13:09:18.50 18:14:47 􀀀85:11:53 16 1629.18(2) 74 2.4 6.7(7) <0.3 >2.3
+130626  0.12  952.4 (1) champ15
+130628  0.0 469.88 (1)  champ15
+130729  4 861 (2)  champ15
