@@ -13,4 +13,4 @@ The three unsupervised learning algorithms explored here are
 2. Hieararchical 
 3. DBSCAN
 
-All codes are in python notebooks. I used sci-kit learn to implement the algorithms.
+All codes are in python notebooks. I used scikit-learn to implement the algorithms.
